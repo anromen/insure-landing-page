@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 25px 0;
+}
+
+body {
+  padding: 0 5vw;
+}
+
+.top-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden-menu {
+  display: none;
+}
