@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --secondary-color: #2C2640;
+}
+
+.colored-container {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+}
+
+.margined {
+  padding: 0 5vw;
+}
+
+.top-bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hamburguer {
+  background-image: url(/assets/images/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.responsive-menu {
+  background-color: white;
+  display: none;
+  position: absolute;
+  right: 0vw;
+  top: 60px;
+  width: 100vw;
+}
+
+.menu-list {
+  text-align: center;
+}
+
+.menu-item {
+  list-style: none;
+  margin: 30px 0;
+}
+
+.menu-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.toggler {
+  display: none;
+}
+
+.toggler:checked + label > div {
+  background-image: url(/assets/images/icon-close.svg);
+}
+
+.toggler:checked ~ .responsive-menu {
+  display: block;
+}
