@@ -234,6 +234,14 @@ body {
   z-index: 0;
 }
 
+.footer-logo {
+  width: 100%;
+}
+
+.footer-networks {
+  width: 100%;
+}
+
 .network-logo {
   text-decoration: none;
 }
@@ -273,4 +281,165 @@ body {
 .footer-list > li > a {
   color: #3D3B46;
   text-decoration: none;
+}
+
+.top-line {
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  h1, h2 {
+    font-size: 4.4rem;
+    line-height: 4rem;
+  }
+
+  .margined {
+    padding: 0 10vw;
+  }
+
+  .toggler + label {
+    display: none;
+  }
+
+  .responsive-menu {
+    display: block;
+    position: static;
+    width: 50%;
+  }
+
+  .responsive-menu > ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu-item {
+    display: inline;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    padding: 5px 20px;
+  }
+
+  .menu-item:last-child {
+    border: 1px solid black;
+  }
+
+  .intro-image {
+    position: relative;
+    width: 50%;
+    right: 0;
+    top: 175px;
+    z-index: 50;
+  }
+
+  .content-container {
+    width: 50%;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .top-line {
+    border: 1px solid white;
+    width: 30%;
+    display: block;
+    margin-top: 175px;
+  }
+
+  .button {
+    color: white;
+  }
+
+  .intro > div {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+  }
+
+  .intro::before {
+    background-image: url(/assets/images/bg-pattern-intro-right-desktop.svg);
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 400px;
+    z-index: 75;
+  }
+
+  .intro::after {
+    background-image: url(/assets/images/bg-pattern-intro-left-desktop.svg);
+    left: 0;
+    right: auto;
+    top: 550px;
+    width: 100%;
+  }
+
+  .decoration-line {
+    margin: 350px 0 0 0;
+    justify-content: left;
+    padding-left: 10vw;
+    width: 35%;
+  }
+
+  .decoration-line > div {
+    height: 0;
+  }
+
+  .margined {
+    text-align: left;
+  }
+
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  .column-3 {
+    width: 30%;
+  }
+
+  .contact-section {
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+  }
+
+  .contact-section > h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 50%;
+  }
+
+  .contact-section > .button {
+    margin: 0;
+    z-index: 100;
+  }
+
+  .contact-section::before {
+    background-image: url(/assets/images/bg-pattern-how-we-work-desktop.svg);
+    width: 40%;
+    z-index: 1;
+  }
+
+  .footer::before {
+    background-image: url(/assets/images/bg-pattern-footer-desktop.svg);
+    width: 100%;
+  }
+
+  .footer-header {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  .footer-logo {
+    width: 50%;
+  }
+
+  .footer-networks {
+    width: 15%;
+  }
+
+  .column-4 {
+    width: 25%;
+  }
+
 }
