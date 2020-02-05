@@ -67,7 +67,7 @@ body {
 }
 
 .hamburguer {
-  background-image: url(/assets/images/icon-hamburger.svg);
+  background-image: url(assets/images/icon-hamburger.svg);
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -99,7 +99,7 @@ body {
 }
 
 .toggler:checked + label > div {
-  background-image: url(/assets/images/icon-close.svg);
+  background-image: url(assets/images/icon-close.svg);
 }
 
 .toggler:checked ~ .responsive-menu {
@@ -142,7 +142,7 @@ body {
 }
 
 .intro::before {
-  background-image: url(/assets/images/bg-pattern-intro-left-mobile.svg);
+  background-image: url(assets/images/bg-pattern-intro-left-mobile.svg);
   background-repeat: no-repeat;
   content: "";
   height: 100%;
@@ -152,7 +152,7 @@ body {
 }
 
 .intro::after {
-  background-image: url(/assets/images/bg-pattern-intro-right-mobile.svg);
+  background-image: url(assets/images/bg-pattern-intro-right-mobile.svg);
   background-repeat: no-repeat;
   content: "";
   height: 100%;
@@ -208,7 +208,7 @@ body {
 }
 
 .contact-section::before {
-  background-image: url(/assets/images/bg-pattern-how-we-work-mobile.svg);
+  background-image: url(assets/images/bg-pattern-how-we-work-mobile.svg);
   background-repeat: no-repeat;
   content: "";
   height: 100%;
@@ -226,7 +226,7 @@ body {
 }
 
 .footer::before {
-  background-image: url(/assets/images/bg-pattern-footer-mobile.svg);
+  background-image: url(assets/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
   content: "";
   height: 100%;
@@ -372,7 +372,7 @@ body {
   }
 
   .intro::before {
-    background-image: url(/assets/images/bg-pattern-intro-right-desktop.svg);
+    background-image: url(assets/images/bg-pattern-intro-right-desktop.svg);
     left: auto;
     right: 0;
     top: 0;
@@ -381,7 +381,7 @@ body {
   }
 
   .intro::after {
-    background-image: url(/assets/images/bg-pattern-intro-left-desktop.svg);
+    background-image: url(assets/images/bg-pattern-intro-left-desktop.svg);
     left: 0;
     right: auto;
     top: 550px;
@@ -429,13 +429,13 @@ body {
   }
 
   .contact-section::before {
-    background-image: url(/assets/images/bg-pattern-how-we-work-desktop.svg);
+    background-image: url(assets/images/bg-pattern-how-we-work-desktop.svg);
     width: 40%;
     z-index: 1;
   }
 
   .footer::before {
-    background-image: url(/assets/images/bg-pattern-footer-desktop.svg);
+    background-image: url(assets/images/bg-pattern-footer-desktop.svg);
     width: 100%;
   }
 
